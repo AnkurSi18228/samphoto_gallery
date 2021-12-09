@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="photography, nature images, photogallery, wallpaper">
+<link rel="stylesheet" href="w3school.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="boot strap css.css">
+<link rel="stylesheet" href="index.css">
+<title>SAM PHOTOGALLERY</title>
+</head>
+
+<body>
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="photographer.jpg" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">SAM</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">SAM PHOTO GALLERY</h5>
+    <h3 class="w3-hide-medium w3-hide-small">PHOTOGALLERY</h3>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar, w3-light-grey, w3-round, w3-display-bottommiddle, w3-hide-small, navbar-fixed-top" style="bottom:-16px">
+    <a href="#" class="w3-bar-item w3-button">Home</a>
+    <a href="#portfolio" class="w3-bar-item w3-button">Portfolio</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  </div>
+</header>
+
+<!-- Photo Grid -->
+<div class="w3-row w3-padding-large w3-margin-top" id="myGrid" style="margin-bottom:128px; margin-top:50px;">
+<div class="w3-padding-large w3-margin-top" id="portfolio">
+  <div class="w3-third">
+    <img src="flower1.jpg" style="width:100%" onclick="onClick(this)">
+    <!-- <img src="sunset1.jpg" style="width:100%" onclick="onClick(this)"> -->
+    <img src="silhouette1.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="IMG_20210819_182154_1.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="zoo wildlife1.jpg" style="width:100%" onclick="onClick(this)">
+    <!-- <img src="https://www.w3schools.com/w3images/mist.jpg" style="width:100%" onclick="onClick(this)"> -->
+  </div>
+
+  <div class="w3-third">
+    <img src="IMG_20211010_170328_1 (2).jpg" style="width:100%" onclick="onClick(this)">
+    <img src="https://www.w3schools.com/w3images/bridge.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="https://www.w3schools.com/w3images/notebook.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="https://www.w3schools.com/w3images/london.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="IMG_20211012_140134_1.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="IMG_20211016_164901_1.jpg" style="width:100%" onclick="onClick(this)">
+  </div>
+
+  <div class="w3-third">
+    <img src="https://www.w3schools.com/w3images/mist.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="https://www.w3schools.com/w3images/workbench.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="IMG_20210614_175613.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="light painting.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="flower2.jpg" style="width:100%" onclick="onClick(this)">
+    <img src="IMG_20211030_172828_1.jpg" style="width:100%" onclick="onClick(this)">
+  </div>
+</div>
+</div>
+
+<!-- Team Section -->
+<!-- <div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding w3-grayscale w3-center" style="margin-top:64px">
+    
+    <div class="w3-col l6 m6, w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="w3-col l6 m6, w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Anja Doe</h3>
+          <p class="w3-opacity">Art Director</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Web Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="https://www.w3schools.com/w3images/team4.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Dan Star</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+    </div>-->
+  </div>
+</div>
+
+<!-- Contact -->
+<div class="w3-container w3-light-grey w3-padding-64">
+  <div class="w3-row-padding" id="contact">
+    <div class="w3-col m6">
+      <h3>READY TO GET THIS PARTY STARTED?</h3>
+      <h6>LET'S DO THIS THANG</h6>
+      <br>
+      <p> Photographers for capturing your valuable memories who don't want a photographer.
+      </p>
+      <p>
+	Oh hey! We're glad you're here. You've found the one person you want to spend the rest of your life with? The greatest love and your true best friend? Sweet! We would love to celebrate with you! We are Julia & Gil, photographers of people in love.
+      </p>
+      <p>We’ve been in business for 7 years and we are doing this worldwide. Our photos are all about capturing the connection between two people in love. Atmospheric, lively and honest. Just drop us a line and tell us about yourselves & your plans. 
+      </p>
+      <p>
+        We’re looking forward to hearing from you
+      </p>
+    </div>
+    <div class="w3-col m6">
+      <!-- <p class="w3-wide"><i class="fa fa-camera w3-margin-right"></i>Photography</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-desktop w3-margin-right"></i>Web Design</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide"><i class="fa fa-photo w3-margin-right"></i>Photoshop</p>
+      <div class="w3-grey">
+        <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+      </div> -->
+
+      <div class="right">
+        <div class="r-content">
+          <form action="send.php">
+            <div class="row my-3">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                required>
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
+                required>
+                </div>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="Email" required>
+              <label for="floatingInput" style="color: grey;">Email address</label>
+            </div>
+
+            <div class="form-floating mb-3">
+              <input type="contact number" class="form-control" id="floatingInput" placeholder="Contact number" required>
+              <label for="floatingInput" style="color: grey;">Contact Number</label>
+            </div>
+
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+              style="height: 100px" required></textarea>
+              <label for="floatingTextarea2" style="color: grey;">What can I do for you? What style of session would you like to book? In Home, Newborn, Sunset etc...? Any creative fun ideas or locations you have? Do you have a date in mind?</label>
+            </div>
+            <br>
+            <button type="submit" id="buzz" class="btn btn-light">Submit</button>
+          </form>
+          <!-- <div>
+            <a href="https://www.facebook.com/samphoto.gallery0/?ref=pages_you_manage"><i class="fab fa-facebook-f" style="font-size:24px"></i></a>
+            <a href="https://www.linkedin.com/in/ankur-singh-3390b71ba"><i class="fab fa-linkedin-in" style="font-size:24px"></i></a>
+            <a href="https://www.instagram.com/samphoto_gallery/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+ <footer class="bg-dark">
+    <div class="footer-main">
+      <div class="foot-left">
+        <p>Copyright © Samphoto_gallery. All Rights Reserved</p>
+      </div>
+      <div class="foot-right">
+        <a href="https://www.facebook.com/profile.php?id=100053048505342"><i class="fab fa-facebook-f" style="font-size:24p"></i></a>
+        <a href="https://www.linkedin.com/in/ankur-singh-3390b71ba"><i class="fab fa-linkedin-in" style="font-size:24p"></i></a>
+        <a href="https://www.instagram.com/samphoto_gallery/"><i class="fa fa-instagram" style="font-size:24px"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- JavaScript Bundle with Popper
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous">
+      </script>
+    <script>
+        var loader = document.getElementById('preloader');
+        window.addEventListener("load", function () {
+            loader.style.display = "none";
+        })
+    </script> -->
+
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="boot strap css.css">
+    <title>Contact us</title>
+</head>
+
+ <style>
+        header nav {
+            box-shadow: 2px 2px 10px rgb(63, 63, 63);
+        }
+
+        header #navbar-heading:hover {
+            text-shadow: 2px 2px 10px white;
+        }
+
+        .contact {
+            padding: 65px 100px 100px 50px;
+            background: url(/1630480676445.jpg);
+        }
+
+        .main {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .contact .main .left {
+            color: black;
+        }
+
+        .contact .main #buzz {
+            font-weight: bold;
+            border-radius: 20px;
+            padding: 5px 20px 5px 20px;
+            margin-top: 3px;
+            border: .3px solid gray;
+            color: gray;
+        }
+
+        .contact .main #buzz:hover {
+            box-shadow: 3px 3px 15px red;
+            color: white;
+            background-color: grey;
+            text-shadow: 2px 2px 10px white;
+        }
+
+        @media (max-width:700px) {
+            .contact {
+                padding: 30px 50px 27px 30px;
+            }
+
+            .main {
+                flex-direction: column;
+            }
+
+            .contact .main .left {
+                margin-bottom: 27px;
+            }
+        }
+    </style>
+
+<body>
+    
+    
+
+    <section class="contact">
+        <div class="main">
+            <div class="left">
+                <h1>Have some queries?</h1>
+                <h6>Write a mail to us now =></h6>
+            </div>
+            <div class="right">
+                <div class="r-content">
+                    <form action="#">
+                        <div class="row my-3">
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                                    required>
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"
+                                    required>
+                            </div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="Email" required>
+                            <label for="floatingInput" style="color: grey;">Email address</label>
+                        </div>
+
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                style="height: 100px" required></textarea>
+                            <label for="floatingTextarea2" style="color: grey;">Write you query here!</label>
+                        </div>
+                        <br>
+                        <button type="submit" id="buzz" class="btn btn-light">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark w3-bottom">
+        <div class="footer-main">
+            <div class="foot-left">
+                <p>Copyright © Samphoto_gallery. All Rights Reserved</p>
+            </div>
+            <div class="foot-right">
+               <a href="https://www.facebook.com/profile.php?id=100053048505342"><i class='fab fa-facebook-f' style='font-size:24px'></i></a>
+                <a href="https://www.linkedin.com/in/ankur-singh-3390b71ba"><i class='fab fa-linkedin-in' style='font-size:24px'></i></a>
+                <a href="https://www.instagram.com/samphoto_gallery/"><i class='fab fa-instagram' style='font-size:24px'></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>
